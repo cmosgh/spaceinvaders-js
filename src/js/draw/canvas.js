@@ -1,8 +1,8 @@
-import {ctx} from "../init/init";
+import { ctx } from "../init/init";
 
-function drawCanvas(){
-    ctx.fillStyle = "#ddd";
-    ctx.fillRect(0, 0, 500, 600);
+function drawCanvas() {
+  ctx.fillStyle = "#ddd";
+  ctx.fillRect(0, 0, 500, 600);
 }
 
-export default drawCanvas
+export default drawCanvas;

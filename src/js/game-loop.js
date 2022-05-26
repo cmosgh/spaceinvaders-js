@@ -1,9 +1,9 @@
-import move from './move'
-import draw from './draw'
+import move from "./move";
+import draw from "./draw";
 
 function gameLoop() {
-    move()
-    draw()
+  move();
+  draw();
 }
 
-export default gameLoop
+export default gameLoop;

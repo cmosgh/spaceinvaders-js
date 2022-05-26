@@ -1,8 +1,8 @@
-import {ship} from "../init/objects";
-import {ctx} from "../init/init";
+import { ship } from "../init/objects";
+import { ctx } from "../init/init";
 
-const drawShip = ()=>{
-    ship.draw(ctx);
-}
+const drawShip = () => {
+  ship.draw(ctx);
+};
 
-export default drawShip
+export default drawShip;
