@@ -8,7 +8,7 @@ const addAllEventListeners = () => {
   });
   canvas.addEventListener("mousedown", function (_e) {
     if (shipShots.length < 3) {
-      shipShots.push(ship.shoot(-20, "#F00"));
+      shipShots.push(ship.shoot(-300, "#F00"));
     }
   });
 };
