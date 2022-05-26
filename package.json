@@ -1,0 +1,17 @@
+{
+  "name": "space-invaders",
+  "version": "1.0.0",
+  "repository": "git@github.com:cmosgh/spaceinvaders-js.git",
+  "author": "Cristian Mos <moscristian@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "prettier": "^2.6.2"
+  }
+}
